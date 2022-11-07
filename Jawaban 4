@@ -1,0 +1,30 @@
+print("NIM   : 20210801380 ")
+print("Nama  : Asep Supriatna")
+print("| Pilih List Minuman |")
+print("| 1. Capucino |")
+print("| 2. Teh |")
+print("| 3. Exit |")
+pilih=int(input("Masukan Pilihan Anda"))
+if pilih == 1:
+  print('Harga Minuman')
+  harga=6000
+  dpp = harga/10
+  
+  PPN=harga + dpp
+  print("===========================")
+  print("Harga Barang = ",harga)
+  print("Pajak = ",PPN)
+  
+elif pilih ==2:
+  print('Harga Minuman')
+  harga=3000
+  dpp = harga/10
+  
+  PPN=harga + dpp
+  print("===========================")
+  print("Harga Minuman = ",harga)
+  print("Pajak = ",PPN)
+elif pilih == 3:
+      print('Terima Kasih ')
+Output
+![Picture30](https://user-images.githubusercontent.com/114826232/200348622-2e471ed5-a357-44da-93ea-27988519a353.png)
