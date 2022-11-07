@@ -1,0 +1,10 @@
+3.	for val in "bahasa": 
+      if val == "h": 
+         continue 
+#break 
+print (val) 
+print ("selesai")
+
+Penjelasan pertama yaitu terkait break pada contoh code program diatas. Jika kita menjalankan atau modifikasi program menggunakan looping break, maka hasil outputnya akan muncul seperti “ b a “ hanya huruf “b” dan “a”. Kenapa demikian, karena disebabkan oleh pemanggilan break statement Ketika nilai “val” sama dengan “h”. Ketika break dipanggil maka perintah dibawahnya (dalam kasus ini print) tidak akan dieksekusi. Bukan hanya itu saja, perulangan juga dianggap selesai.
+
+Penjelasn kedua yaitu terkait continue, jika kita menjalankan program diatas menggunakan statement continue, maka hasil output nya “b a a s a”. Kenapa huruf “h” tidak ada, karena statement continue ini ketika kita memasuki kondisi dimana val sama dengan h, maka perintah continue akan dijalankan. Pemanggilan ini akan menyebabkan iterasi berlanjut ke nilai val selanjutnya secara tiba-tiba. Oleh karena itu semua perintah dibawahnya tidak akan dieksekusi sehingga angka h tidak dicetak. Karena statement continue hanya akan lompat ke iterasi selanjutnya. Ketika dipanggil, keduanya sama-sama akan mengabaikan semua perintah yang ada di bawahnya.
