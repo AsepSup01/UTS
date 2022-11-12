@@ -1,0 +1,6 @@
+nama = input("masukkan nama kamu :") 
+nim = input("masukan nim : ")
+print("=======Program Quiz=======")
+print(nama)
+print(nim)
+<img width="198" alt="Picture1" src="https://user-images.githubusercontent.com/114826232/201472937-1a3ff57f-7600-4579-9e55-99d37dc6bd53.png">
