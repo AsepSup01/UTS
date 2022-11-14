@@ -1,0 +1,17 @@
+class jam:
+    getjam = 0
+    getmenit = 0
+    getdetik = 0
+
+jam = jam()
+
+j = int(input('Jam Menunjukan pukul : '))
+getmenit = int(input('Menit berapa : '))
+getdetik = int(input('Detik berapa : '))
+
+jam.getjam=int(j)
+jam.getmenit=int(getmenit)
+jam.getdetik=int(getdetik)
+
+print("Jam ",jam.getjam,":",jam.getmenit,":",jam.getdetik)
+<img width="143" alt="ini" src="https://user-images.githubusercontent.com/114826232/201575572-420d6514-f25c-4d61-b5a0-ba521779d9e2.png">
